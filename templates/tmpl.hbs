@@ -1,0 +1,19 @@
+{{#each this}}
+<li class="hender-li">
+    <h2 class="card-title"> {{name}}</h2>
+    <div class="card-body">
+        <div>
+            <p>Capital: {{capital}}</p>
+            <p>Population: {{population}}</p>
+            <p>Languages:</p>
+            <ul class="hendel-ul">
+                {{#each languages}}
+                <li>{{name}}</li>
+                {{/each}}
+            </ul>
+        </div>
+        <img class="img-flag" src="{{flag}}" alt="{{name}}" height="200">
+    </div>
+
+</li>
+{{/each}}
