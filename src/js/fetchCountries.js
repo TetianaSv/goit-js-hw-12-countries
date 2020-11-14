@@ -1,4 +1,4 @@
-import renderCountryCard from '../src/index'
+import renderCountryCard from '../js/renderCountryCard'
 
 
 export default function fetchCountries(searchQuery) {
